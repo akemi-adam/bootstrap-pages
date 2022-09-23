@@ -1,0 +1,27 @@
+:root {
+    --header-color: #7d7db5;
+    --bg: #e0e0eb;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-nav {
+    background-color: var(--header-color);
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+    font-size: 19px;
+    color: #fff;
+}
+
+#first-card {
+    background-color: #ffccff;
+}
+
+#second-card, #visited-button {
+    background-color: #e6f2ff;
+}
